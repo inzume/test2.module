@@ -6,7 +6,7 @@ import java.io.*;
 import java.util.ArrayList;
 
 public class WriteAndReader {
-    File dssv=new File("C:\\Users\\Windows\\IdeaProjects\\ThiThucHanh\\product.csv2");
+    File dssv=new File("C:\\Users\\Windows\\IdeaProjects\\ThiThucHanh\\product.csv");
     public void write(ArrayList<Product> products){
 
         try {
