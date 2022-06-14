@@ -68,7 +68,14 @@ import java.io.Serializable;
                     ", describe='" + describe + '\'' +
                     '}';
         }
-
+        public String towrite() {
+            return  id +
+                    "," + name +
+                    "," + price +
+                    ", " + amount +
+                    "," + describe  +
+                    '}';
+        }
 
     }
 

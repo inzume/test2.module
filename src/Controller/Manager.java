@@ -5,7 +5,6 @@ import Product.SortGiamDan;
 import Product.SortTangDan;
 import Validate.Validate;
 import io.WriteAndReader;
-
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -124,7 +123,6 @@ writeAndReader.write(products);
                 products.sort(new SortGiamDan());
                 break;
         }
-
     }
     public void Max(){
 
@@ -137,9 +135,5 @@ writeAndReader.write(products);
             }
 
         }
-
-
-
-
     }
 }
